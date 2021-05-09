@@ -1,0 +1,72 @@
+*{
+    background-color: black;
+}
+.circle{
+    height: 100px;
+  width: 100px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  position:fixed;
+  top:42vh;
+  left:48vw;
+  animation: circle-glow 15s linear infinite;
+}
+
+@keyframes circle-glow {
+    0%{
+        background-color: rgb(0, 0, 0);
+    }
+    10%{
+        background-color: rgb(204,208,90);
+        transform: scale(1.5);
+    }
+    20%{
+        background-color: rgb(0, 0, 0);
+        height: 100px;
+        width: 100px;
+        left:40vw;
+
+    }
+    30%{
+        background-color: rgb(165,149,192);
+        transform: scale(2.5);
+    }
+    40%{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        left:50vw;
+
+    }
+    50%{
+        background-color: rgb(23,61,39);
+        transform: scale(1.5);
+    }
+    60%{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        left:60vw;
+    }
+    70%{
+        background-color: rgb(29,197,135);
+        transform: scale(1.25);
+    }
+    80%{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+    }
+    90%{
+        background-color: rgb(24,6,227);
+        transform: scale(1.75);
+    }
+    100%{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+    }
+    
+}
